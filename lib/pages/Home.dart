@@ -16,9 +16,8 @@ class _HomeState extends State<Home> {
       child: RaisedButton(
         child: Text("搜索"),
         onPressed: () {
-          Navigator.of(context).push(
-            MaterialPageRoute(builder: (BuildContext context) => Search()),
-          );
+          var id;
+          Navigator.pushNamed(context, './Home', arguments: {id: 10});
         },
       ),
     );

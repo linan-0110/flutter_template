@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'pages/tabs/Tabs.dart';
 
+import './pages/Home.dart';
+import './pages/My.dart';
+import './pages/Setting.dart';
+import './pages/Search.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -14,6 +19,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Tabs(),
+      routes: {
+        './Home': (context) => Home(),
+        './My': (context) => My(),
+        './Setting': (context) => Setting(),
+        './Search': (context) => Search(),
+      },
     );
   }
 }
