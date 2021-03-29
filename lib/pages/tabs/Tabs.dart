@@ -18,7 +18,7 @@ class _TabsState extends State<Tabs> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Scaffold title888'),
+        title: Text('Flutter'),
       ),
       body: _tabsComponent[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
