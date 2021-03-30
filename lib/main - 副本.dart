@@ -36,16 +36,16 @@ class MyHomePage extends StatelessWidget {
         Icon(Icons.ac_unit),
         Row(),
         Column(),
-        Expanded(), // flex: 1
-        GridView(),
-        Padding(),
-        Center(),
-        Stack(),
-        Align(),
-        Positioned(),
-        AspectRatio(), // 宽高比
-        CircleAvatar(), // 圆形头像
-        RaisedButton(onPressed: onPressed)
+        // Expanded(), // flex: 1
+        // GridView(),
+        // Padding(),
+        // Center(),
+        // Stack(),
+        // Align(),
+        // Positioned(),
+        // AspectRatio(), // 宽高比
+        // CircleAvatar(), // 圆形头像
+        // RaisedButton(onPressed: onPressed)
       ],
     );
   }
